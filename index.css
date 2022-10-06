@@ -1,0 +1,135 @@
+
+html {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    padding: 50px;
+    background-image: linear-gradient(135deg, var(--color-1), var(--color-2), var(--color-6));
+    font-family: 'Roboto', sans-serif;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    color: black;
+    --color-1: #3a1c71;
+    --color-2: #d76d77; 
+    --color-3: #ffd3b6; 
+    --color-4: #ffaaa5; 
+    --color-5: #ff8b94;
+    --color-6: #ffaf7b;
+}
+
+
+
+.container {
+    display: block;
+    width: 400px;
+    text-align: center;
+    margin: 0 auto;
+    background-color: white;
+    box-shadow: -2px 6px 18px 3px rgba(0,0,0,0.75);
+    padding: 50px;
+
+}
+
+
+.containerThree {
+    width: 600px;
+    text-align: center;
+    margin: 0 auto;
+    background-color: white;
+    box-shadow: -2px 6px 18px 3px rgba(0,0,0,0.75);
+    padding: 50px;
+}
+
+
+.players {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.dice {
+    border-radius: 10px;
+    width: 100px;
+    height: 100px;
+    background-color: var(--color-3);
+    margin: 0 auto;
+    font-size: 80px;
+    display: block;
+    align-items: center;
+    justify-content: center;
+
+}
+
+button {
+    color: #fff;
+    padding: 20px 30px;
+    font-size: 20px;
+    margin: 100px auto;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+}
+
+#player2Btn {
+    margin-top: 10px;
+    background-color: #ffaf7b;
+    display: none
+}
+
+#player2Btn:hover {
+    transform: scale(1.03);
+}
+
+#player3Btn:hover {
+
+    transform: scale(1.03);
+}
+
+#player3Btn {
+    margin-top: 10px;
+    background-color: #ffaf7b;
+}
+
+#rollBtn3 {
+    background-color: var(--color-5);
+    display: none
+}
+
+
+button:focus {
+    outline: none;      
+}
+
+#rollBtn{
+    background-color: var(--color-5);
+
+}
+
+#resetBtn{
+    background-color: var(--color-4);
+
+}
+
+
+#resetBtn{
+    display: none;
+}
+
+#resetBtn3{
+    background-color: var(--color-4);
+}
+
+#resetBtn3{
+    display: none;
+}
+
+.active {
+    box-shadow: -2px 6px 18px 3px rgba(0,0,0,0.75)
+}
+
+#player3 {
+    display: none;
+}
+
